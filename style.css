@@ -1,32 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background: linear-gradient(to right, rgb(226, 135, 191), rgb(143, 115, 221), rgb(196, 87, 150));
-  text-align: center;
-}
-
-*{
-    margin: 0;
-    padding: 100;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-img{
-    border-radius: 100px;
-}
-
-
-.lista-capivara {
-  text-align: left;           /* Garante que o texto fique junto dos números */
-  padding-left: 24px;         /* Espaço para os números aparecerem */
-  display: inline-block;      /* Mantém a lista compacta caso queira centralizar o bloco todo */
-}
-
-.lista-capivara li {
-  margin-bottom: 6px;         /* Espaço entre cada item */
-  font-weight: bold;
-
-}
-
-ul{
-    list-style-type: lower-greek;
+  background-color: rgb(203, 193, 206);
+  color: e1e1e6;
 }
